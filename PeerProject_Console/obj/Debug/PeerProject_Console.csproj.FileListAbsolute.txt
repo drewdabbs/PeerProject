@@ -7,3 +7,4 @@ C:\Users\Drew\Google Drive\ElevenFiftyProjects\1_Gold_Badge\PeerProject\PeerProj
 C:\Users\Drew\Google Drive\ElevenFiftyProjects\1_Gold_Badge\PeerProject\PeerProject_Console\obj\Debug\PeerProject_Console.csproj.CoreCompileInputs.cache
 C:\Users\Drew\Google Drive\ElevenFiftyProjects\1_Gold_Badge\PeerProject\PeerProject_Console\obj\Debug\PeerProject_Console.exe
 C:\Users\Drew\Google Drive\ElevenFiftyProjects\1_Gold_Badge\PeerProject\PeerProject_Console\obj\Debug\PeerProject_Console.pdb
+C:\Users\Drew\Google Drive\ElevenFiftyProjects\1_Gold_Badge\PeerProject\PeerProject_Console\obj\Debug\PeerProject_Console.csproj.CopyComplete

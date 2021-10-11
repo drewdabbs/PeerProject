@@ -32,18 +32,23 @@ namespace PeerProject_Console
             while (continueToRun)
             {
                 Console.Clear();
-                Console.WriteLine("Hello and welcome to your very own Mad-Libs game!\n" +
-                    "From this menu you can choose a Mad-Libs based on how many words you would like to use.\n" +
-                    "Enter the number representing the number of Mad-Lib words you would like to play with:\n" +
-                    "1. Try a Mad-Lib that asks for two words.\n" +
-                    "2. Try a Mad-Lib that asks for three words.\n" +
-                    "3. Try a Mad-Lib that asks for four words.\n" +
+                Console.WriteLine("Hello and welcome to your very own Mad-Libs game!\n\n" +
+                    "From this menu you can choose a Mad-Libs based on how many words you would like to use.\n\n" +
+                    "Enter the number representing the number of Mad-Lib words you would like to play with:\n\n" +
+                    "1. Try a Mad-Lib that asks for two words.\n\n" +
+                    "2. Try a Mad-Lib that asks for three words.\n\n" +
+                    "3. Try a Mad-Lib that asks for four words.\n\n" +
                     "4. Exit");
                 string userInput = Console.ReadLine();
                 switch (userInput)
                 {
                     case "1":
                         MadLibOne();
+                        break;
+                    case "2":
+                        MadLibTwo();
+                        break;
+                    case "3":
                         break;
                     case "4":
                         continueToRun = false;
@@ -56,8 +61,13 @@ namespace PeerProject_Console
                 }
             }
         }
+        private void  Pause()
+        {
+            Thread.Sleep(2000);
+        }
         public void MadLibOne()
         {
+            
             Console.Clear();
             Console.WriteLine("Please type out a mood:");
             string mood = Console.ReadLine();
@@ -65,17 +75,21 @@ namespace PeerProject_Console
             Console.WriteLine("Please type out a body part:");
             string bodyPart = Console.ReadLine();
             Console.Clear();
-            Console.WriteLine("C:> If you're "+ mood + " and you know it, Syntax error!\n" +
-                "Syntax error");
-            Thread.Sleep(2000);
-            Console.WriteLine("C:> If you're "+ mood + " and you know it, Syntax error!\n" +
-                "Syntax error");
-            Thread.Sleep(2000);
-            Console.WriteLine("C:> If you're " + mood + " and you know it, then your " + bodyPart + " will surely show it. If you're " + mood + " and you know it, Syntax error!\n" +
-                "Syntax error");
-            Thread.Sleep(2000);
+            Console.WriteLine("C:> If you're "+ mood + " and you know it, Syntax error!\n\n" +
+                "Syntax error\n\n");
+            Pause();
+            Console.WriteLine("C:> If you're "+ mood + " and you know it, Syntax error!\n\n" +
+                "Syntax error\n\n");
+            Pause();
+            Console.WriteLine("C:> If you're " + mood + " and you know it, then your " + bodyPart + " will surely show it. If you're " + mood + " and you know it, Syntax error!\n\n" +
+                "Syntax error\n\n");
+            Pause();
             Console.WriteLine("Please press any key to return...");
             Console.ReadKey();
+        }
+        public void MadLibTwo()
+        {
+
         }
         // Then a lot of fun with what is displayed through Console.WriteLine. Roughly this is what the user sees:
         // 1. Try a Mad-Lib that asks for two words.
