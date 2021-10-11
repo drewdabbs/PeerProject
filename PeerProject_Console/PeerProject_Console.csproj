@@ -50,5 +50,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PeerProject_Repo\PeerProject_Repo.csproj">
+      <Project>{188c12d4-4f52-4c43-8444-cb314f8fc9dc}</Project>
+      <Name>PeerProject_Repo</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

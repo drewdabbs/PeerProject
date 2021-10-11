@@ -1,0 +1,6 @@
+C:\Users\Drew\Google Drive\ElevenFiftyProjects\1_Gold_Badge\PeerProject\PeerProject_Repo\bin\Debug\PeerProject_Repo.dll
+C:\Users\Drew\Google Drive\ElevenFiftyProjects\1_Gold_Badge\PeerProject\PeerProject_Repo\bin\Debug\PeerProject_Repo.pdb
+C:\Users\Drew\Google Drive\ElevenFiftyProjects\1_Gold_Badge\PeerProject\PeerProject_Repo\obj\Debug\PeerProject_Repo.csproj.AssemblyReference.cache
+C:\Users\Drew\Google Drive\ElevenFiftyProjects\1_Gold_Badge\PeerProject\PeerProject_Repo\obj\Debug\PeerProject_Repo.csproj.CoreCompileInputs.cache
+C:\Users\Drew\Google Drive\ElevenFiftyProjects\1_Gold_Badge\PeerProject\PeerProject_Repo\obj\Debug\PeerProject_Repo.dll
+C:\Users\Drew\Google Drive\ElevenFiftyProjects\1_Gold_Badge\PeerProject\PeerProject_Repo\obj\Debug\PeerProject_Repo.pdb

@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace PeerProject_Repo
 {
-    class PeerProject
+    public class PeerProject
     {
+        
     }
 }
