@@ -22,7 +22,7 @@ namespace PeerProject_Console
             // 3. Try a Mad-Lib that asks for four words.
             // And so on.
             // This frees us up a little for bugs and time constraints as once we have the first Mad-Lib working, along with the menu working and such, we have effectively completed the requirements and can use the existing Mad-Lib code as a roadmap to add more.
-            // Since I think this type of console app will be light on the use of differing methods and classes, I might as a side project research two additional, optional, inclusions: A sleep timer so that the Mad-Lib, if it is long enough, can be displayed one sentance at a time and a method to return the user to the main menu, rather than having to exit the console to play again.
+            // Since I think this type of console app will be light on the use of differing methods and classes, I might as a side project research two additional, optional, inclusions: A sleep timer so that the Mad-Lib, if it is long enough, can be displayed one sentance at a time and a method to return the user to the main menu, rather than having to exit the console to play again (Note: nevermind, the while loops solves this).
             // Initially I created the repository files incase we wanted to use methods stored in a repository as with the Streaming Constent project, but those may not actually be needed. It is likely we can constrain our code to the ProgramUI.cs and Program.cs files. What are your thoughts?
 
 
@@ -40,7 +40,7 @@ namespace PeerProject_Console
             ui.Run();
             // Starts the Run Method in the Class ProgramUI
 
-            Console.ReadKey();
+            // Console.ReadKey(); // Removed as redunant also seemed to be the bug needing users to have to hit 'any key' twice in order to exit after entering the number corresponding to the exit command. Commented out rather than removed for future reference.
             // The Run method will load our Menu, also found in 'ProgramUI.cs' and any thing else we have inside Run so we need to give the user time to chose an option.
         }
     }

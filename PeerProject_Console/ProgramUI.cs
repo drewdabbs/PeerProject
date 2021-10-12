@@ -62,6 +62,7 @@ namespace PeerProject_Console
             }
         }
         private void  Pause()
+            // Really wanted this to work and glad it did. In order for this to be implemented the using statements/references will need to include System.Threading and System.Threading.Tasks. VS studio did this for me automatically witht he Cntl '.' shortcut.
         {
             Thread.Sleep(2000);
         }
@@ -75,13 +76,13 @@ namespace PeerProject_Console
             Console.WriteLine("Please type out a body part:");
             string bodyPart = Console.ReadLine();
             Console.Clear();
-            Console.WriteLine("C:> If you're "+ mood + " and you know it, Syntax error!\n\n" +
+            Console.WriteLine("C:> If you're "+ mood.ToLower() + " and you know it, Syntax error!\n\n" + 
                 "Syntax error\n\n");
             Pause();
-            Console.WriteLine("C:> If you're "+ mood + " and you know it, Syntax error!\n\n" +
+            Console.WriteLine("C:> If you're "+ mood.ToLower() + " and you know it, Syntax error!\n\n" +
                 "Syntax error\n\n");
             Pause();
-            Console.WriteLine("C:> If you're " + mood + " and you know it, then your " + bodyPart + " will surely show it. If you're " + mood + " and you know it, Syntax error!\n\n" +
+            Console.WriteLine("C:> If you're " + mood.ToLower() + " and you know it, then your " + bodyPart.ToLower() + " will surely show it. If you're " + mood.ToLower() + " and you know it, Syntax error!\n\n" +
                 "Syntax error\n\n");
             Pause();
             Console.WriteLine("Please press any key to return...");
