@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeerProject_Console", "Peer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeerProject_Repo", "..\PeerProject_Repo\PeerProject_Repo.csproj", "{188C12D4-4F52-4C43-8444-CB314F8FC9DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeerProject_Test", "..\PeerProject_Test\PeerProject_Test.csproj", "{5760752F-F3C5-4A78-B5B2-022CED31CE46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{188C12D4-4F52-4C43-8444-CB314F8FC9DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{188C12D4-4F52-4C43-8444-CB314F8FC9DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{188C12D4-4F52-4C43-8444-CB314F8FC9DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5760752F-F3C5-4A78-B5B2-022CED31CE46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5760752F-F3C5-4A78-B5B2-022CED31CE46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5760752F-F3C5-4A78-B5B2-022CED31CE46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5760752F-F3C5-4A78-B5B2-022CED31CE46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

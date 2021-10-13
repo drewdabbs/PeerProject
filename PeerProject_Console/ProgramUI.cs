@@ -10,9 +10,7 @@ namespace PeerProject_Console
 {
     public class ProgramUI
     {
-        // ProgramUI.cs
-        // public static void Main (string[] args) {}
-        // Just for clarity I have commented out the above since this file is actually a class list rather than a program. I will probably copy/paste this into my actual files.
+
 
         // The first thing we will likely work on is the ProgramUI class as that will house our other methods we would want to call up when the program is initiated. So the first step in that is the Run Method
         // In the Run Method we will place at least our RunMenu Method (below) but we may want to add an addition method or more to fire at launch. Plus we want the user to be able to interact with this method but the actual menu we create that will fire from 'RunMenu' should not be alterable by the user. Therefore this Run Method will be set to public but the actual menu in RunMenu will be set to private.
@@ -49,6 +47,7 @@ namespace PeerProject_Console
                         MadLibTwo();
                         break;
                     case "3":
+                        MadLibThree();
                         break;
                     case "4":
                         continueToRun = false;
@@ -90,7 +89,51 @@ namespace PeerProject_Console
         }
         public void MadLibTwo()
         {
-
+            Console.Clear();
+            Console.WriteLine("Please enter country:");
+            string country = Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("Please enter a city:");
+            string city = Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("Please enter a city street:");
+            string cityStreet = Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("The country is " + country.ToLower() + ",\n\n");
+            Pause();
+            Console.WriteLine("The city is " + city.ToLower() + ",\n\n");
+            Pause();
+            Console.WriteLine("The city street is " + cityStreet.ToLower() + ",\n\n");
+            Pause();
+            Console.WriteLine("Please press any key to return...");
+            Console.ReadKey();
+        }
+        public void MadLibThree()
+        {
+            
+            Console.Clear();
+            Console.WriteLine("Please type out a color:");
+            string color = Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("Please type out a plural noun:");
+            string pluralNoun = Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("Please type out a noun:");
+            string noun = Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("Please type out a adjective:");
+            string adj = Console.ReadLine();
+            Console.Clear();
+            Console.WriteLine("Roses are " + color.ToLower() + ",\n\n");
+            Pause();
+            Console.WriteLine(pluralNoun + " are blue,\n\n");
+            Pause();
+            Console.WriteLine(noun + " is " + adj.ToLower() + ", \n\n");
+            Pause();
+            Console.WriteLine("and so are you.\n\n");
+            Pause();
+            Console.WriteLine("Please press any key to return...");
+            Console.ReadKey();
         }
         // Then a lot of fun with what is displayed through Console.WriteLine. Roughly this is what the user sees:
         // 1. Try a Mad-Lib that asks for two words.

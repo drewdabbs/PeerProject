@@ -30,7 +30,7 @@ namespace PeerProject_Console
 
             // --- To build in this Program.cs specifically ----
             //
-            // In this program, 'Program.cs', what will bee needed will be similar to the Streaming Content's Program.cs if you want to look over that for reference. 
+            // In this program, 'Program.cs', what will be needed will be similar to the Streaming Content's Program.cs if you want to look over that for reference. 
             // So far we know we will need to call upon a class, or new-up a class created elsewhere, likely called ProgramUI as it was in the Streaming Content project.
             // We will also need call upon the Run Method to run the methods we will place in the 'ProgramUI.cs' class list. Roughly it will look like this:
 
